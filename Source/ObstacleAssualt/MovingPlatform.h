@@ -27,5 +27,5 @@ public:
 	int32 Myint = 99;
 
 	UPROPERTY(EditAnywhere)
-	int32 Myint2 = 999;
+	int32 Myint2 = 98;
 };
