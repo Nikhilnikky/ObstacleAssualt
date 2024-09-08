@@ -27,5 +27,11 @@ public:
 	int32 Myint = 99;
 
 	UPROPERTY(EditAnywhere)
-	int32 Myint2 = 98;
+	float Myfloat = 99.0;
+
+	// UPROPERTY(EditAnywhere)
+	// int32 Myint2 = 98;
+
+	UPROPERTY(EditAnywhere)
+	FVector MyVector = FVector(1.1,2.2,3.3);
 };

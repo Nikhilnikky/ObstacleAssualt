@@ -15,7 +15,11 @@ AMovingPlatform::AMovingPlatform()
 void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
-	Myint = 0;
+	Myint = MyVector.X;
+	Myfloat = MyVector.Y;
+
+	// SetActorLocation(FVector(1,2,3));
+	SetActorLocation(MyVector);
 	
 }
 
