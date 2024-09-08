@@ -23,15 +23,15 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere)
-	int32 Myint = 99;
-
-	UPROPERTY(EditAnywhere)
-	float Myfloat = 99.0;
+	// UPROPERTY(EditAnywhere)
+	// int32 Myint = 99;
 
 	// UPROPERTY(EditAnywhere)
-	// int32 Myint2 = 98;
+	// float Myfloat = 99.0;
+
+	// // UPROPERTY(EditAnywhere)
+	// // int32 Myint2 = 98;
 
 	UPROPERTY(EditAnywhere)
-	FVector MyVector = FVector(1.1,2.2,3.3);
+	FVector MyVector = FVector(1.1,2.2,3.3);//some random value,correct value is set in world
 };
